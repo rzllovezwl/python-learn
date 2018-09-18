@@ -58,10 +58,13 @@
             # dict前后各有两个下划线
             class_name.__dict__
     
-# anaconda基本使用
+# 3、anaconda基本使用
 - anaconda主要是一个虚拟环境管理器
 - 还是一个安装包管理器
 - conda list：显示anaconda安装的包
 - conda env list：显示anaconda的虚拟环境列表
 - conda create -n xxx python=3.6：创建python版本为3.6的虚拟环境，名称叫xxx
- -
+
+# 4、类和对象的成员分析
+- 类和对象都可以存储成员，成员可以归类所有，也可以归对象所有
+- 类存储成员时使用的是与类关联的一个对象
